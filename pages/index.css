@@ -1,11 +1,153 @@
 .page {
-    min-width: 1100px;
-    max-width: 1600px;
-    font-family: "Inter", "Arial", serif;
-    font-weight: 100;
+    background-color: #FFFFFF;
+    height: 100vh;
+
+        min-width: 1100px;
+        max-width: 1600px;
+        margin: 0 auto;
+        font-family: "inter", "arial", sans-serif;
+        font-size: 16px;
+        line-height: 20px;
+        color: #000000;
+        padding: 0;
+
+}
+
+.header {
+    min-height: 720px;
+    max-height: 800px;
+    background-image: url(/web_project_coffeeshop/images/background_header.svg);
+    background-size: cover;
+        height: 100vh;
+        min-height: 720px;
+        max-height: 800px;
+
+        position: relative;
+        box-sizing: border-box;
+        margin-bottom: 10vw;
+      }
+
+
+
+.nav {
+   position: static;
+}
+.nav__logo{
+    width: 105px;
+    height: 39px;
+position: relative;
+top: 30px;
+left: 30px;
+}
+.nav__links {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.nav__link {
+    font-family: "Inter", "Arial",sans-serif;
     font-style: normal;
+    font-weight: 500;
     font-size: 16px;
     line-height: 20px;
-    margin-left: auto;
-    margin-right: auto;
+    color: #000000;
+ text-decoration: none;
+
+
 }
+.header__span-accent{
+    font-family: "Noto Serif", "Times New Roman", serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 58px;
+    line-height: 72px;
+    color: #2F80ED;
+
+
+}
+.header__title {
+    position:absolute;
+    top: 222px;
+left:80px;
+    max-height: 709px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 72px;
+    letter-spacing: -1px;
+    max-height: 80;
+}
+
+.header__description{
+    position: absolute;
+    top: 432px;
+    left: 80px;
+    font-family: "Noto Serif", 'Times New Roman', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    max-width: 683px;
+
+}
+
+
+
+.header__img {
+    position: absolute;
+    top: 124px;
+    right: 5px;
+    width: 646px;
+    height: 568px;
+
+}
+
+.header__footer {
+position: absolute;
+bottom: 40px;
+left: 40px;
+margin-left: 0;
+margin-top: auto;
+list-style: none;
+font-family: "Noto Serif", 'Times New Roman', serif;
+font-style: normal;
+font-weight: normal;
+line-height: 30px;
+color: #838383;
+
+
+
+}
+.header__paragraph{
+    position: absolute;
+    bottom:40px;
+    right: 80px;
+    font-family: "Noto Serif", 'Times New Roman', serif;
+font-style: normal;
+font-weight: normal;
+line-height: 30px;
+color: #838383;
+
+}
+
+.content {
+    ;
+}
+
+.recipes {
+    ;
+}
+
+.reservation {
+    ;
+}
+
+.footer {
+    ;
+}
+
