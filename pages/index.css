@@ -108,14 +108,14 @@
     color: #838383;
 }
 
-.header__paragraph {
+.header__address {
     position: absolute;
     bottom: 40px;
     right: 160px;
 }
 
 .content {
-    margin-top: -19px;
+    margin-top: -36px;
 }
 
 .recipes {
