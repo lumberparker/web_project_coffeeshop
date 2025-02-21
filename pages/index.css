@@ -80,7 +80,7 @@
     max-width: 683px;
 }
 
-.header__img {
+.header__image {
     position: absolute;
     top: 124px;
     right: 5px;
@@ -89,9 +89,7 @@
 }
 
 .header__footer {
-    position: absolute;
-    bottom: 40px;
-    left: 40px;
+    width: 100%;
     margin-left: 0;
     margin-top: auto;
     list-style: none;
@@ -100,16 +98,22 @@
     font-weight: normal;
     line-height: 30px;
     color: #838383;
+    padding-left: 40px;
 }
-.header__paragraph {
+.header__footer_horarios {
+    list-style: none;
     position: absolute;
     bottom: 40px;
-    right: 80px;
+}
+.header__paragraph {
     font-family: "Noto Serif", "Times New Roman", serif;
     font-style: normal;
     font-weight: normal;
     line-height: 30px;
     color: #838383;
+    position: absolute;
+    bottom: 40px;
+    right: 80px;
 }
 
 .content {
