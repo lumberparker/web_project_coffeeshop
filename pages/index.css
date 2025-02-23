@@ -121,7 +121,7 @@
 .recipes {
     background-color: #0a2850;
     background-image: url(/images/background_recipes.svg);
-    background-size: center;
+    background-size: cover;
     min-height: 720px;
     max-height: 800px;
     margin-top: 0;
@@ -174,8 +174,8 @@
 .recipes__iframe {
     border-left: 0;
     border-right: 0;
-    border-top: 1;
-    border-bottom: 1;
+    border-top: 1px;
+    border-bottom: 1px;
     border-color: lightgray;
 }
 
@@ -202,7 +202,7 @@
     min-height: 720px;
     max-height: 800px;
     margin-top: 0;
-    padding-bottom: 215px;
+    padding-bottom: 120px;
     height: 100vh;
     position: relative;
     color: #000000;
@@ -214,29 +214,36 @@
 
 .reservation__title {
     margin-top: 100px;
+    font-family: "inter", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
 }
 
 .reservation__form {
-    box-sizing: 100px;
     max-width: 385px;
-    width: 385px;
-    padding: 0;
-    box-sizing: border-box;
-   
+    width: 100%;
+    box-sizing: border-box; /* Includes padding inside the width */
+    padding: 0; /* Remove extra padding if needed */
+    border: none;
 }
 
 .form__fieldset {
-  display: block;
-  width: 100%;
-  margin: 0;
-  padding: 0;
- 
+    width: 100%;
+    width: 877px; /* Ensures it never exceeds the parent's width */
+    padding: 0;
 }
 
 /* Estilos para etiquetas y entradas */
 label {
-margin-bottom: 8px;
-margin-top: 32px;
+    margin: 0;
+    margin-bottom: 8px;
+    font-family: "inter", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
 }
 
 input[type="text"],
@@ -245,18 +252,54 @@ input[type="datetime-local"],
 input[type="email"] {
     height: 60px;
     width: 385px;
-    padding: 0;
-    margin: 0;
+    padding-top: 15px;
+    padding-left: 20px;
+    margin-bottom: 32px;
+    box-sizing: border-box;
+    margin-top: 8px;
 
-    
+    font-family: "inter", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
 }
-
+input::placeholder {
+    color: #838383;
+    font-family: "inter", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+}
 input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin-right: 12px;
 }
 
 /* Botón de enviar */
 button {
+    height: 60px;
+    width: 385px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 32px;
+    font-family: "inter", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    background-color: #2f80ed;
+    color: white;
+    border: none;
+    border-radius: 4px;
 }
 
 button:hover {
+    background-color: hsla(216, 83%, 56%, 0.8);
+}
+.checkbox {
+    display: flex;
+    justify-content: center;
 }
