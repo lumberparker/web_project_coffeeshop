@@ -209,11 +209,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 80px;
 }
 
 .reservation__title {
     margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
     font-family: "inter", "Arial", sans-serif;
     font-style: normal;
     font-weight: 500;
