@@ -229,7 +229,7 @@
     border: none;
 }
 
-.form__fieldset {
+.reservation__fieldset {
     width: 100%;
     width: 877px; /* Ensures it never exceeds the parent's width */
     padding: 0;
