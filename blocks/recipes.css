@@ -9,6 +9,9 @@
     height: 100vh;
     position: relative;
 }
+.recipes__content {
+    margin-top: -36px;
+}
 
 .recipes__title {
     position: relative;

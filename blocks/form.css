@@ -62,7 +62,7 @@ input[type="checkbox"] {
 .form__button:hover {
     background-color: hsla(216, 83%, 56%, 0.7);
 }
-.checkbox {
+.form__checkbox {
     display: flex;
     justify-content: center;
 }

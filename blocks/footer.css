@@ -52,7 +52,7 @@
     list-style: none;
     padding: 0;
 }
-.list-item {
+.footer__list-item {
     margin-bottom: 16px;
 }
 .footer__social-link {
