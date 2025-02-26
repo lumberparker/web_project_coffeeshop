@@ -29,7 +29,6 @@
         <title>Sprint 4 - Cafetería</title>
         <!-- Enlace válido a normalize.css -->
         <link rel="shortcut icon" href="favicon.ico" />
-        <link rel="stylesheet" href="./vendor/normalize.css" />
         <link rel="stylesheet" href="./pages/index.css" />
     </head>
     <body>
@@ -37,7 +36,7 @@
             <header class="header">
                 <nav class="nav">
                     <img
-                        src="/web_project_coffeeshop/images/logo_coffeeshop_dark.svg"
+                        src="../images/logo_coffeeshop_dark.svg"
                         alt=""
                         class="nav__logo"
                     />
@@ -51,7 +50,9 @@
                                 >Reservar una mesa
                             </a>
                         </li>
-                        <li><a href="#" class="nav__link">Contactos</a></li>
+                        <li>
+                            <a href="#footer" class="nav__link">Contactos</a>
+                        </li>
                     </ul>
                 </nav>
 
@@ -71,13 +72,13 @@
                     class="header__image"
                 />
                 <div class="header__footer">
-                    <p class="header__paragraph">Horario:</p>
-                    <p class="header__paragraph">
+                    <span class="header__paragraph">Horario:</span>
+                    <span class="header__paragraph">
                         Lunes a Viernes (de 10:00h a 19:00h)
-                    </p>
-                    <p class="header__paragraph">
+                    </span>
+                    <span class="header__paragraph">
                         Sábados y Domingos (de 11:00h a 18:00h)
-                    </p>
+                    </span>
 
                     <p class="header__paragraph">
                         <span class="header__address">
@@ -171,9 +172,14 @@
                                 placeholder="email@email.com"
                                 required
                             />
-                            <button type="submit">Reservar una mesa</button>
+                            <button
+                                class="reservation__form form__button"
+                                type="submit"
+                            >
+                                Reservar una mesa
+                            </button>
 
-                            <label class="checkbox"
+                            <label class="reservation__form form__checkbox"
                                 ><input type="checkbox" required />Acepto los
                                 términos de uso
                             </label>
@@ -181,7 +187,45 @@
                     </form>
                 </section>
             </main>
-            <footer class="footer"></footer>
+            <footer class="footer" id="footer">
+                <div class="footer__content">
+                    <img
+                        src="/images/logo_coffeeshop_light.svg"
+                        alt="Logotipo blanco de cafetería"
+                        class="footer__logo"
+                    />
+
+                    <div class="footer__social">
+                        <p class="footer__social-heading">Redes Sociales</p>
+                        <ul class="footer__list">
+                            <li class="list-item">
+                                <a
+                                    class="footer__social-link"
+                                    href="http://wwww.facebook.com"
+                                    ><img
+                                        class="footer__social-icon"
+                                        src="/images/facebook_white.svg"
+                                        alt="Logotiop de FB"
+                                    />Facebook</a
+                                >
+                            </li>
+                            <li class="list-item">
+                                <a
+                                    class="footer__social-link"
+                                    href="http://wwww.instagram.com"
+                                    ><img
+                                        class="footer__social-icon"
+                                        src="/images/instagram_white.svg"
+                                        alt="Logotipo de Instagram"
+                                    />Instagram</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__circle"></div>
+                </div>
+                <p class="footer__copyright">© 2025 Rodney Parker</p>
+            </footer>
         </div>
     </body>
 </html>
